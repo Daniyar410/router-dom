@@ -1,0 +1,36 @@
+.wrap2 {
+    margin-top: 50px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // gap: 20px;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.box2 {
+    margin-top: 20px;
+
+    border: 2px solid black;
+    padding: 80px 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    background-color: deeppink;
+}
+
+.text {
+    border: 2px solid black;
+    margin: 0 20px;
+    padding: 4px;
+    background-color: red;
+    color: blue;
+}
+
+.text2{
+
+    background-color: blue;
+    color: red;
+}

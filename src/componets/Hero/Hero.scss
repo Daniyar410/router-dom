@@ -1,0 +1,37 @@
+.wrap{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+
+    img{
+     aspect-ratio: 1;
+     object-fit: cover;
+     max-width: 300px;
+    }
+
+}
+
+.section{
+    margin-top: 100px;
+}
+
+.box{
+
+
+    p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    button{
+        padding: 20px 40px;
+        border-radius: 20px;
+
+        background-color: aqua;
+    }
+}
